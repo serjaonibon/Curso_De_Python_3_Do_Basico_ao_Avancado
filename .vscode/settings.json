@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    }
+  },
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.executeInFileDir": true,
+  "terminal.integrated.allowAnsiEscapeSequences": true,
+  "terminal.integrated.minimumContrastRatio": 1
+
+}

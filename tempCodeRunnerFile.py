@@ -1,2 +1,2 @@
-else:
-    #     print("Hora ou minuto inválido!")
+
+    print(contador)
