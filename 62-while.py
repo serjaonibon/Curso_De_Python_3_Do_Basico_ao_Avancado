@@ -10,12 +10,12 @@ while contador <= 100:
     contador += 1
 
     if contador == 6:
-        print('Não vou mostrar o 6.')
-        continue
+        # print('Não vou mostrar o 6.')
+        continue # aqui o "continue" pula para a próxima iteração do loop
 
     if contador >= 10 and contador <= 27:
-        print('Não vou mostrar o', contador)
-        continue
+        # print('Não vou mostrar o', contador)
+        continue #aqui o "continue" pula para a próxima iteração do loop, omitindo o intervalo entre 10 e 27
 
     print(contador)
 
